@@ -1,0 +1,13 @@
+{
+  "regime": "new",
+  "standard_deduction": 50000,
+  "rebate_87A_limit": 700000,
+  "slabs": [
+    { "min": 0, "max": 300000, "rate": 0 },
+    { "min": 300000, "max": 600000, "rate": 5 },
+    { "min": 600000, "max": 900000, "rate": 10 },
+    { "min": 900000, "max": 1200000, "rate": 15 },
+    { "min": 1200000, "max": 1500000, "rate": 20 },
+    { "min": 1500000, "max": null, "rate": 30 }
+  ]
+}

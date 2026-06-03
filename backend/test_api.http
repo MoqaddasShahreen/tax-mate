@@ -1,0 +1,31 @@
+### Old request (backward compatible)
+POST http://127.0.0.1:5000/calculate-tax
+Content-Type: application/json
+
+{
+  "income": 950000
+}
+
+### Quick mode
+POST http://127.0.0.1:5000/calculate-tax
+Content-Type: application/json
+
+{
+  "mode": "quick",
+  "income": 950000
+}
+
+### Detailed mode (same result for now)
+POST http://127.0.0.1:5000/calculate-tax
+Content-Type: application/json
+
+{
+  "mode": "detailed",
+  "basic_salary": 600000,
+  "hra": 150000,
+  "rent_paid": 120000,
+  "special_allowance": 100000,
+  "bonus": 50000,
+  "investment_80c": 100000,
+  "investment_80d": 20000
+}
